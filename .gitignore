@@ -1,0 +1,4 @@
+node_modules/
+votes.sqlite
+*.log
+.env
