@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#9e111b">
+<title>Votación navideña</title><link rel="stylesheet" href="styles.css">
+</head>
+<body><main class="wrap">
+<header class="hero"><div class="eyebrow">🎄 Especial de Navidad 🎄</div><h1>Votación navideña</h1><p>Elige tu diseño favorito y participa</p><div class="rule">✨ Solo puedes votar una vez por dispositivo ✨</div></header>
+<section class="choices" aria-label="Opciones para votar">
+<article class="choice"><img src="images/opcion-1.jpg" alt="Opción 1"><h2>Opción 1</h2><button data-option="1">Votar por esta</button></article>
+<article class="choice"><img src="images/opcion-2.jpg" alt="Opción 2"><h2>Opción 2</h2><button data-option="2">Votar por esta</button></article>
+<article class="choice"><img src="images/opcion-3.jpg" alt="Opción 3"><h2>Opción 3</h2><button data-option="3">Votar por esta</button></article>
+</section><p id="message" class="message" role="status" aria-live="polite"></p>
+<section class="results"><div class="results-heading"><div><span class="eyebrow">En tiempo real</span><h2>Resultados de la votación</h2></div><div class="total"><strong id="total">0</strong><span> votos</span></div></div><div id="bars"></div><p class="footnote">Los resultados son compartidos entre todos los visitantes.</p></section>
+<footer>❤️ ¡Gracias por participar y feliz Navidad! ❤️</footer></main><script src="app.js"></script></body></html>
