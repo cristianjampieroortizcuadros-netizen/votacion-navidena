@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: votacion-navidena
+    runtime: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: DB_PATH
+        value: /var/data/votes.sqlite
+    disk:
+      name: votes-data
+      mountPath: /var/data
+      sizeGB: 1
